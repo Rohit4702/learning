@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio | MP3</title>
+  </head>
+  <body>
+    <!-- Audio learning -->
+    <audio
+      src="https://file-examples.com/storage/fe235481fb64f1ca49a92b5/2017/11/file_example_MP3_700KB.mp3"
+      controls
+      autoplay
+      muted
+    ></audio>
+    <br>
+
+    <!-- adding two sources ensures that even if one audio fails to play due to outdated browser or connection then the second one  or the other file is played -->
+    <audio controls autoplay muted>
+      <source src="https://file-examples.com/storage/fe235481fb64f1ca49a92b5/2017/11/file_example_MP3_700KB.mp3"/>
+      <source src="https://file-examples.com/storage/fe235481fb64f1ca49a92b5/2017/11/file_example_MP3_700KB.mp3"/>
+    </audio>
+  </body>
+</html>
